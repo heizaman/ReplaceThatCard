@@ -1,0 +1,39 @@
+<div style="max-width: 500px;margin: auto;">
+	<h1>Hello {{!--cookies.name--}}<span id="name"></span></h1>
+
+	<br />
+	<br />
+	<br />
+
+	<ul style="font-size: 20px;">
+		<li>
+			<a href="./replacecard">'Replace The Card' Campaign</a>
+		</li>
+		<br />
+		<li>
+			<a href="/">Bla Bla</a>
+		</li>
+		<br />
+		<li>
+			<a href="/">Bla Bla</a>
+		</li>
+		<br />
+		<li>
+			<a href="/">Profile</a>
+		</li>
+		{{!--#ifCond cookies.role '2'}}
+		<br />
+		<li>
+			<a href="">Translate Articles</a>
+		</li>
+		{{/ifCond--}}
+	</ul>
+
+	<br />
+	<br />
+	<br />
+
+	<button onclick="logout();" class="btn btn-default">Logout</button>
+</div>
+
+<script type="text/javascript" src="/javascripts/welcome.js"></script>

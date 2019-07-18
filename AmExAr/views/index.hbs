@@ -1,0 +1,16 @@
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		var user = getAllCookies();
+
+	    if (!user.isValid) {
+	    	console.log("empty");
+	    	deleteCookies();
+	    	window.location = "/login";
+	    }
+	    else {
+		    console.log("non-empty");
+		    window.location = "/welcome";
+	    }
+	});
+</script>

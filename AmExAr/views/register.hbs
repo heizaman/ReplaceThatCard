@@ -1,0 +1,27 @@
+<div style="max-width: 500px;margin: auto;">
+	<h1>Register</h1>
+	<br />
+	<br />
+
+	<form onsubmit="submitRegisterForm(); return false;">
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" class="form-control" id="name"placeholder="Enter your name" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" class="form-control" id="email"placeholder="Enter your email" required>
+		</div>
+		<div class="form-group">
+			<label for="password">Password:</label>
+			<input type="password" class="form-control" id="password" placeholder="Enter password" required>
+		</div>
+		<input type="submit" class="btn btn-default" value="Register" />
+	</form>
+
+	<br />
+	<br />
+	<p>Already Registered? <a href="/login">Login</a></p>
+</div>
+
+<script type="text/javascript" src="/javascripts/register.js"></script>

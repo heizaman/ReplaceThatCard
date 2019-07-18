@@ -1,0 +1,36 @@
+Frontend = E - Programs - XAMPP - htdocs - frontend
+
+
+Backend = E - Projects - AmExAr
+
+
+
+
+START FRONTEND
+
+Open Xampp
+In Icon tray, right click xampp
+Start Apache
+Start MySql
+
+
+
+
+START BACKEND
+
+Go to E - Projects - AmExAr
+Right click and open Git Bash
+npm start
+
+
+
+
+TO CHANGE FOR PHONE
+
+In E - Projects - AmExAr
+app.js
+(Restart backend after changing in backend)
+(Open Task manager, End task for Node, Start again)
+
+In E - Programs - Xampp - htdocs - frontend
+In assets - js - common.js
